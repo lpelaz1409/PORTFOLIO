@@ -1,0 +1,83 @@
+# ============================================================
+# .gitignore — Projet Web (HTML / CSS / JS)
+# ============================================================
+
+# ── Dépendances ─────────────────────────────────────────────
+node_modules/
+bower_components/
+
+# ── Outils de build ─────────────────────────────────────────
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+
+# ── Variables d'environnement & secrets ─────────────────────
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+*.pem
+*.key
+
+# ── Logs ────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# ── Lock files (choisir selon ton gestionnaire) ─────────────
+# Décommenter pour ignorer :
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ── OS ──────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ── Éditeurs & IDEs ─────────────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*~
+
+# ── Tests & couverture ──────────────────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+
+# ── Fichiers temporaires / divers ───────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# ── Storybook ───────────────────────────────────────────────
+storybook-static/
+
+# ── Source maps ─────────────────────────────────────────────
+*.css.map
+*.js.map
